@@ -39,7 +39,7 @@
         "async": "^3.1.0",
         "base58-native": "^0.1.4",
         "bchaddrjs": "^0.4.2",
-        "bignum": "git://github.com/justmoon/node-bignum.git",
+        "bignum": "git://github.com/Invader444/node-bignum.git#node12",
         "bitgo-utxo-lib": "git://github.com/miketout/bitgo-utxo-lib.git",
         "cryptocurrency-addr": "git://github.com/Invader444/node-cryptocurrency-addr.git",
         "equihashverify": "git://github.com/AoD-Technologies/equihashverify.git",
