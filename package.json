@@ -1,54 +1,74 @@
 {
-    "name": "cryptocurrency-stratum-pool",
-    "version": "0.9.0",
+    "_from": "git://github.com/mhssamadani/ErgoStratumServer.git",
+    "_id": "stratum-pool@0.1.9",
+    "_inBundle": false,
+    "_integrity": "",
+    "_location": "/stratum-pool",
+    "_phantomChildren": {},
+    "_requested": {
+        "type": "git",
+        "raw": "stratum-pool@git://github.com/mhssamadani/ErgoStratumServer.git",
+        "name": "stratum-pool",
+        "escapedName": "stratum-pool",
+        "rawSpec": "git://github.com/mhssamadani/ErgoStratumServer.git",
+        "saveSpec": "git://github.com/mhssamadani/ErgoStratumServer.git",
+        "fetchSpec": "git://github.com/mhssamadani/ErgoStratumServer.git",
+        "gitCommittish": null
+    },
+    "_requiredBy": [
+        "/"
+    ],
+    "_resolved": "git://github.com/mhssamadani/ErgoStratumServer.git#9cf12b9987c9942eb6f70327c32bd66cb20d8d6e",
+    "_spec": "stratum-pool@git://github.com/mhssamadani/ErgoStratumServer.git",
+    "_where": "/Users/ruimendes/WebstormProjects/Adonis_Pool_ERG",
+    "author": {
+        "name": "Matthew Little"
+    },
+    "bugs": {
+        "url": "https://github.com/zone117x/node-stratum-pool/issues"
+    },
+    "bundleDependencies": false,
+    "contributors": [
+        {
+            "name": "vekexasia"
+        },
+        {
+            "name": "TheSeven"
+        }
+    ],
+    "dependencies": {
+        "async": "*",
+        "base58-native": "*",
+        "bigint-buffer": "^1.1.5",
+        "bignum": "0.13.1",
+        "blake2": "^4.0.2",
+        "json-bigint": "^1.0.0",
+        "multi-hashing": "git://github.com/zone117x/node-multi-hashing.git",
+        "uint64be": "^3.0.0"
+    },
+    "deprecated": false,
     "description": "High performance Stratum poolserver in Node.js",
+    "engines": {
+        "node": ">=0.10"
+    },
+    "homepage": "https://github.com/zone117x/node-stratum-pool",
     "keywords": [
         "stratum",
         "mining",
-        "staking",
         "pool",
         "server",
         "poolserver",
         "bitcoin",
         "litecoin",
-        "zcash",
-        "veruscoin",
-        "sha256",
-        "scrypt",
-        "equihash",
-        "verushash",
-        "x16rv2"
+        "scrypt"
     ],
-    "homepage": "https://github.com/AoD-Technologies/cryptocurrency-stratum-pool",
-    "bugs": {
-        "url": "https://github.com/AoD-Technologies/cryptocurrency-stratum-pool/issues"
-    },
-    "license": "GPL-3.0",
-    "author": "Jonathan Horowitz",
-    "contributors": [
-        "Matthew Little",
-        "vekexasia",
-        "TheSeven"
-    ],
+    "license": "GPL-2.0",
     "main": "lib/index.js",
+    "name": "stratum-pool",
     "repository": {
         "type": "git",
-        "url": "https://github.com/AoD-Technologies/cryptocurrency-stratum-pool.git"
+        "url": "git+https://github.com/zone117x/node-stratum-pool.git"
     },
-    "dependencies": {
-        "async": "^3.1.0",
-        "base58-native": "^0.1.4",
-        "bchaddrjs": "^0.4.2",
-        "bignum": "git://github.com/Invader444/node-bignum.git#node12",
-        "bitgo-utxo-lib": "git://github.com/miketout/bitgo-utxo-lib.git",
-        "cryptocurrency-addr": "git://github.com/Invader444/node-cryptocurrency-addr.git",
-        "equihashverify": "git://github.com/AoD-Technologies/equihashverify.git",
-        "merkle-bitcoin": "^1.0.2",
-        "multi-hashing": "git://github.com/zone117x/node-multi-hashing.git",
-        "promise": "^8.0.3",
-        "verushash": "git://github.com/AoD-Technologies/verushash-node.git"
-    },
-    "engines": {
-        "node": ">=12.10.3"
-    }
+    "version": "0.1.9"
 }
+
