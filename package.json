@@ -30,11 +30,11 @@
     "dependencies": {
         "async": "*",
         "base58-native": "*",
+        "big-integer": "^1.6.51",
         "bigint-buffer": "^1.1.5",
-        "bignum": "0.13.1",
         "blake2": "^4.0.2",
         "json-bigint": "^1.0.0",
-        "multi-hashing": "git+https://github.com/zone117x/node-multi-hashing.git",
+        "multi-hashing": "1.0.0",
         "uint64be": "^3.0.0"
     },
     "engines": {
