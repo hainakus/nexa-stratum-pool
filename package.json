@@ -32,6 +32,7 @@
         "base58-native": "*",
         "big-integer": "^1.6.51",
         "bigint-buffer": "^1.1.5",
+        "blake2": "^4.1.1",
         "json-bigint": "^1.0.0",
         "multi-hashing": "^1.0.2",
         "node-gyp": "^9.3.0",
